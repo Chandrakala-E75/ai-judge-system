@@ -116,7 +116,7 @@ function App() {
         </div>
         
         <div className="side-input">
-          <h3>Side B (Plaintiff)</h3>
+          <h3>Side B (Defendant)</h3>
           <input type="file" accept=".pdf,.docx,.txt" onChange={(e) => handleFileUpload(e, 'B')} style={{marginBottom: '10px'}} />
           <textarea value={sideB} onChange={(e) => setSideB(e.target.value)} placeholder="Enter Side B evidence and arguments..."></textarea>
         </div>
